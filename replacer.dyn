@@ -1,8 +1,8 @@
-<Workspace Version="0.9.0.3067" X="-241.214880947937" Y="86.4573346754053" zoom="0.384057937244791" Name="Home" Description="" RunType="Manual" RunPeriod="1000" HasRunWithoutCrash="True">
+<Workspace Version="0.9.0.3067" X="39.9357861761748" Y="172.007688719109" zoom="0.277439550356852" Name="Home" Description="" RunType="Manual" RunPeriod="1000" HasRunWithoutCrash="True">
   <NamespaceResolutionMap />
   <Elements>
     <DSRevitNodesUI.ElementsOfFamilyType guid="8a83698a-51db-45cf-874c-3ecf7f1a2819" type="DSRevitNodesUI.ElementsOfFamilyType" nickname="All Elements of Family Type" x="486.545245170276" y="572.160307952188" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" />
-    <Dynamo.Nodes.Function guid="616f6ceb-0974-46dd-abec-f1ad8a477bd6" type="Dynamo.Nodes.Function" nickname="ElementLocation" x="1003.9027881952" y="915.439613718606" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False">
+    <Dynamo.Nodes.Function guid="616f6ceb-0974-46dd-abec-f1ad8a477bd6" type="Dynamo.Nodes.Function" nickname="ElementLocation" x="1017.04471856265" y="943.913796181413" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False">
       <ID value="c6ce889d-3f5b-44e2-b101-98da8abfb700" />
       <Name value="ElementLocation" />
       <Description value="Returns the location of an element as an XYZ (or if it's line-based the start and end point of the line), along with some booleans to help filtering the results. Use this for some element types (e.g. walls or lines) that do not work with the built-in Get Family Instance Location node. " />
@@ -23,9 +23,9 @@
     <Dynamo.Nodes.DSFunction guid="3d675e69-4e44-4c33-9895-92b1d22b4d3a" type="Dynamo.Nodes.DSFunction" nickname="Vector.Rotate" x="2759.51515478023" y="933.357229335653" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Vector.Rotate@Autodesk.DesignScript.Geometry.Plane,double">
       <PortInfo index="2" default="True" />
     </Dynamo.Nodes.DSFunction>
-    <Dynamo.Nodes.DSFunction guid="82bdb26e-4559-40c5-8449-56fbec1a876e" type="Dynamo.Nodes.DSFunction" nickname="Vector.Reverse" x="3160.37567731039" y="901.960744104084" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Vector.Reverse" />
-    <Dynamo.Nodes.DSFunction guid="a9242b6e-6531-44c5-a992-307b7e7b508b" type="Dynamo.Nodes.DSFunction" nickname="Geometry.Translate" x="3450.19522643083" y="1314.03605143823" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Geometry.Translate@Autodesk.DesignScript.Geometry.Vector,double" />
-    <Dynamo.Nodes.DSFunction guid="b9b33697-052d-42ff-bb38-f9c12100a012" type="Dynamo.Nodes.DSFunction" nickname="Geometry.Translate" x="3436.10367382964" y="791.108059928025" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Geometry.Translate@Autodesk.DesignScript.Geometry.Vector,double" />
+    <Dynamo.Nodes.DSFunction guid="82bdb26e-4559-40c5-8449-56fbec1a876e" type="Dynamo.Nodes.DSFunction" nickname="Vector.Reverse" x="3041.27197722797" y="888.726999650482" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Vector.Reverse" />
+    <Dynamo.Nodes.DSFunction guid="a9242b6e-6531-44c5-a992-307b7e7b508b" type="Dynamo.Nodes.DSFunction" nickname="Geometry.Translate" x="3236.04917981799" y="1196.1354190334" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Geometry.Translate@Autodesk.DesignScript.Geometry.Vector,double" />
+    <Dynamo.Nodes.DSFunction guid="b9b33697-052d-42ff-bb38-f9c12100a012" type="Dynamo.Nodes.DSFunction" nickname="Geometry.Translate" x="3243.61284541361" y="764.64057102082" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Geometry.Translate@Autodesk.DesignScript.Geometry.Vector,double" />
     <Dynamo.Nodes.DSFunction guid="3f22dd2c-e5f4-485b-b935-cea5dbc0e13e" type="Dynamo.Nodes.DSFunction" nickname="Element.GetParameterValueByName" x="2643.05079433588" y="1452.44603492796" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" assembly="RevitNodes.dll" function="Revit.Elements.Element.GetParameterValueByName@string" />
     <Dynamo.Nodes.StringInput guid="d9a27b1d-9ac2-42d9-9645-739add2b427e" type="Dynamo.Nodes.StringInput" nickname="String" x="2524.50535668469" y="1524.3627522812" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True">
       <System.String>Right</System.String>
@@ -48,7 +48,7 @@
       </Outputs>
     </Dynamo.Nodes.Function>
     <DSCore.Map guid="8ca320f1-63a0-4cc3-a99d-6b69e79e6865" type="DSCore.Map" nickname="List.Map" x="1129.82984292992" y="279.761282068826" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" />
-    <Dynamo.Nodes.Function guid="c0a686a2-5e9d-4606-a6ce-d0b3b2639d59" type="Dynamo.Nodes.Function" nickname="DetailComponent.ByCurve" x="4140.81686799035" y="530.63406713553" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False">
+    <Dynamo.Nodes.Function guid="c0a686a2-5e9d-4606-a6ce-d0b3b2639d59" type="Dynamo.Nodes.Function" nickname="DetailComponent.ByCurve" x="4044.57145378233" y="566.726097463537" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False">
       <ID value="75daf972-c7ff-4c29-96d7-505b73596232" />
       <Name value="DetailComponent.ByCurve" />
       <Description value="Places a line-based detail component in a given view" />
@@ -61,38 +61,17 @@
         <Output value="element" />
       </Outputs>
     </Dynamo.Nodes.Function>
-    <Dynamo.Nodes.DSFunction guid="0ee972c6-be24-49ca-ad50-a685afa985bc" type="Dynamo.Nodes.DSFunction" nickname="Line.ByStartPointEndPoint" x="3761.52209601761" y="1013.55629658682" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Line.ByStartPointEndPoint@Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Point" />
-    <Dynamo.Nodes.DSFunction guid="9b3dbde9-5af3-4ba2-b8d8-4e9e5687132e" type="Dynamo.Nodes.DSFunction" nickname="Element.GetParameterValueByName" x="3728.4106405633" y="60.2390243691773" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" assembly="RevitNodes.dll" function="Revit.Elements.Element.GetParameterValueByName@string" />
-    <Dynamo.Nodes.StringInput guid="0fd1e41b-c530-46e4-ad63-3c6da5764a4a" type="Dynamo.Nodes.StringInput" nickname="String" x="3532.97005912985" y="132.845917409857" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True">
+    <Dynamo.Nodes.DSFunction guid="0ee972c6-be24-49ca-ad50-a685afa985bc" type="Dynamo.Nodes.DSFunction" nickname="Line.ByStartPointEndPoint" x="3603.92023025198" y="960.621318772415" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Line.ByStartPointEndPoint@Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Point" />
+    <Dynamo.Nodes.DSFunction guid="9b3dbde9-5af3-4ba2-b8d8-4e9e5687132e" type="Dynamo.Nodes.DSFunction" nickname="Element.GetParameterValueByName" x="2524.11610292311" y="-89.3389596052418" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" assembly="RevitNodes.dll" function="Revit.Elements.Element.GetParameterValueByName@string" />
+    <Dynamo.Nodes.StringInput guid="0fd1e41b-c530-46e4-ad63-3c6da5764a4a" type="Dynamo.Nodes.StringInput" nickname="String" x="2328.67552148966" y="-16.7320665645619" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True">
       <System.String>Masking depth</System.String>
       <System.String value="Masking depth" />
     </Dynamo.Nodes.StringInput>
     <Dynamo.Nodes.DSFunction guid="76e6e358-15a7-41f1-8357-b205f2015bc1" type="Dynamo.Nodes.DSFunction" nickname="Element.SetParameterByName" x="4419.75428147508" y="384.616487554293" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" assembly="RevitNodes.dll" function="Revit.Elements.Element.SetParameterByName@string,var" />
-    <Dynamo.Nodes.StringInput guid="0fbf8166-f8ff-4d35-b331-77000d5d5238" type="Dynamo.Nodes.StringInput" nickname="String" x="4153.2631194248" y="418.557297555679" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True">
+    <Dynamo.Nodes.StringInput guid="0fbf8166-f8ff-4d35-b331-77000d5d5238" type="Dynamo.Nodes.StringInput" nickname="String" x="4186.90843965045" y="386.457706674689" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True">
       <System.String>Height</System.String>
       <System.String value="Height" />
     </Dynamo.Nodes.StringInput>
-    <PythonNodeModels.PythonNode guid="e514b41a-300b-426b-9d37-3c0ce94429de" type="PythonNodeModels.PythonNode" nickname="Get View Orientation" x="1120.47741008429" y="-85.6533976489254" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" inputcount="1">
-      <Script>import clr
-clr.AddReference('RevitAPI')
-from Autodesk.Revit.DB import *
-
-clr.AddReference("RevitNodes")
-import Revit
-clr.ImportExtensions(Revit.GeometryConversion)
-
-views = UnwrapElement(IN[0])
-orientations = list()
-
-for view in views:
-	output = list()
-	output.append(view.Origin.ToPoint())
-	output.append(view.ViewDirection.ToVector())
-	output.append(view.RightDirection.ToVector())
-	orientations.append(output)
-
-OUT = orientations</Script>
-    </PythonNodeModels.PythonNode>
     <Dynamo.Nodes.DSFunction guid="47c1282a-4b61-44ef-b021-958e1b08e1ab" type="Dynamo.Nodes.DSFunction" nickname="Plane.ByOriginNormal" x="1717.73178812334" y="444.906985937546" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Plane.ByOriginNormal@Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Vector">
       <PortInfo index="0" default="True" />
       <PortInfo index="1" default="True" />
@@ -119,8 +98,8 @@ OUT = output</Script>
       <System.String value="BCRA_Break Line" />
     </Dynamo.Nodes.StringInput>
     <Dynamo.Nodes.DSFunction guid="e6660104-6c16-4036-95ba-0f8f810c050c" type="Dynamo.Nodes.DSFunction" nickname="FamilyType.ByName" x="289.675177321988" y="572.593969845398" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" assembly="RevitNodes.dll" function="Revit.Elements.FamilyType.ByName@string" />
-    <Dynamo.Nodes.DSFunction guid="2c655034-59e3-4c01-964d-6b31ebaf6b81" type="Dynamo.Nodes.DSFunction" nickname="FamilyType.ByName" x="2222.0490325828" y="257.922468074665" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" assembly="RevitNodes.dll" function="Revit.Elements.FamilyType.ByName@string" />
-    <Dynamo.Nodes.StringInput guid="414cfa72-acb4-4c12-a583-c65c66fa09df" type="Dynamo.Nodes.StringInput" nickname="String" x="1962.75843070252" y="256.249625481889" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True">
+    <Dynamo.Nodes.DSFunction guid="2c655034-59e3-4c01-964d-6b31ebaf6b81" type="Dynamo.Nodes.DSFunction" nickname="FamilyType.ByName" x="3618.68044267918" y="429.316819632033" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" assembly="RevitNodes.dll" function="Revit.Elements.FamilyType.ByName@string" />
+    <Dynamo.Nodes.StringInput guid="414cfa72-acb4-4c12-a583-c65c66fa09df" type="Dynamo.Nodes.StringInput" nickname="String" x="3367.59604644593" y="429.467578294154" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True">
       <System.String>b.Breakline-zigzag-open</System.String>
       <System.String value="b.Breakline-zigzag-open" />
     </Dynamo.Nodes.StringInput>
@@ -141,7 +120,7 @@ for view in views:
 
 OUT = output</Script>
     </PythonNodeModels.PythonNode>
-    <PythonNodeModels.PythonNode guid="5d28407f-9267-43f2-8c3e-19329e7d57fe" type="PythonNodeModels.PythonNode" nickname="Get View Right Directions" x="1501.95629668537" y="698.237982611128" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" inputcount="1">
+    <PythonNodeModels.PythonNode guid="5d28407f-9267-43f2-8c3e-19329e7d57fe" type="PythonNodeModels.PythonNode" nickname="Get View Right Directions" x="1524.62057447834" y="717.880356698364" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" inputcount="1">
       <Script>import clr
 clr.AddReference('RevitAPI')
 from Autodesk.Revit.DB import *
@@ -159,23 +138,6 @@ for view in views:
 OUT = output</Script>
     </PythonNodeModels.PythonNode>
     <Dynamo.Nodes.DSFunction guid="e9ea6c1c-9d52-4274-a42c-ed2e180b328d" type="Dynamo.Nodes.DSFunction" nickname="Geometry.ClosestPointTo" x="2212.3884024515" y="945.982851526054" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Geometry.ClosestPointTo@Autodesk.DesignScript.Geometry.Geometry" />
-    <PythonNodeModels.PythonNode guid="c4b138a1-9869-42ab-8e5e-84b43511f00f" type="PythonNodeModels.PythonNode" nickname="Get View Scales" x="1512.19163048225" y="118.69750045717" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" inputcount="1">
-      <Script>import clr
-clr.AddReference('RevitAPI')
-from Autodesk.Revit.DB import *
-
-clr.AddReference("RevitNodes")
-import Revit
-clr.ImportExtensions(Revit.GeometryConversion)
-
-views = UnwrapElement(IN[0])
-output = list()
-
-for view in views:
-	output.append(view.Scale)
-
-OUT = output</Script>
-    </PythonNodeModels.PythonNode>
   </Elements>
   <Connectors>
     <Dynamo.Models.ConnectorModel start="8a83698a-51db-45cf-874c-3ecf7f1a2819" start_index="0" end="616f6ceb-0974-46dd-abec-f1ad8a477bd6" end_index="0" portType="0" />
@@ -200,7 +162,6 @@ OUT = output</Script>
     <Dynamo.Models.ConnectorModel start="8ca320f1-63a0-4cc3-a99d-6b69e79e6865" start_index="0" end="ea15c249-04f0-4a4e-acdf-31f42e20db6a" end_index="0" portType="0" />
     <Dynamo.Models.ConnectorModel start="8ca320f1-63a0-4cc3-a99d-6b69e79e6865" start_index="0" end="4a86725a-0051-4d45-8e99-ee86a23c21aa" end_index="0" portType="0" />
     <Dynamo.Models.ConnectorModel start="8ca320f1-63a0-4cc3-a99d-6b69e79e6865" start_index="0" end="5d28407f-9267-43f2-8c3e-19329e7d57fe" end_index="0" portType="0" />
-    <Dynamo.Models.ConnectorModel start="8ca320f1-63a0-4cc3-a99d-6b69e79e6865" start_index="0" end="c4b138a1-9869-42ab-8e5e-84b43511f00f" end_index="0" portType="0" />
     <Dynamo.Models.ConnectorModel start="c0a686a2-5e9d-4606-a6ce-d0b3b2639d59" start_index="0" end="76e6e358-15a7-41f1-8357-b205f2015bc1" end_index="0" portType="0" />
     <Dynamo.Models.ConnectorModel start="0ee972c6-be24-49ca-ad50-a685afa985bc" start_index="0" end="c0a686a2-5e9d-4606-a6ce-d0b3b2639d59" end_index="0" portType="0" />
     <Dynamo.Models.ConnectorModel start="9b3dbde9-5af3-4ba2-b8d8-4e9e5687132e" start_index="0" end="76e6e358-15a7-41f1-8357-b205f2015bc1" end_index="2" portType="0" />
@@ -219,11 +180,7 @@ OUT = output</Script>
     <Dynamo.Models.ConnectorModel start="e9ea6c1c-9d52-4274-a42c-ed2e180b328d" start_index="0" end="a9242b6e-6531-44c5-a992-307b7e7b508b" end_index="0" portType="0" />
   </Connectors>
   <Notes />
-  <Annotations>
-    <Dynamo.Models.AnnotationModel guid="8d766e24-f97d-4fe2-bbce-8fca3f8c02b1" annotationText="&lt;Click here to edit the group title&gt;" left="1110.47741008429" top="-129.653397648925" width="161" height="137" fontSize="14" InitialTop="-85.6533976489254" InitialHeight="205.185977247815" TextblockHeight="34" backgrouund="#FFC1D676">
-      <Models ModelGuid="e514b41a-300b-426b-9d37-3c0ce94429de" />
-    </Dynamo.Models.AnnotationModel>
-  </Annotations>
+  <Annotations />
   <Presets />
   <Cameras>
     <Camera Name="Background Preview" eyeX="11.6645879745483" eyeY="14.2132806777954" eyeZ="-7.73265504837036" lookX="0.0115359323099256" lookY="-11.8816289901733" lookZ="0.285896778106689" upX="-0.0395764447748661" upY="0.190808996558189" upZ="-0.980829060077667" />
